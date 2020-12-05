@@ -1,0 +1,259 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.border {
+  /* border-bottom-style: groove; */
+  border-bottom: 1px solid grey;
+}
+
+/****************/
+/* HERO Section */
+/****************/
+.hero {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  /* background-image: url('https://c4.wallpaperflare.com/wallpaper/654/555/787/geometry-cyberspace-digital-art-lines-wallpaper-preview.jpg'); */
+
+  align-items: flex-start;
+  justify-content: center; 
+  
+  height: 80vh; 
+  margin: 0;
+  margin-bottom: 3em;
+  padding-left: 8em;
+
+  background-size: cover;
+  background-position: center; 
+  background-color: transparent;
+
+}
+
+
+
+.bg{
+  flex: auto;
+  position: absolute;
+  background-image: url('https://images.unsplash.com/photo-1473091534298-04dcbce3278c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+  background-size: cover;
+  background-position: right center;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .9; 
+    /* width: 100%;
+    height: 100%; */
+    height: 100vh;  
+}
+
+.hero-words {
+  flex-direction: column;
+
+  width: 65%;
+
+}
+
+.hero-words h1 {
+  font-size: 2.8em;
+  /* font-variant: small-caps; */
+  color: #222222;
+}
+
+.hero-words p {
+  font-size: 3em;
+  color: grey;
+  margin: 0;
+  margin-bottom: 1.5em;
+
+}
+
+.hero-btn {
+  padding: 0.5em 2em;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  color: #222222;
+  /* background-color: rgb(169, 201, 57); */
+  background-color: #366ea7;
+  border: none;
+  margin-top: 5em;
+}
+
+.hero-btn:hover {
+  background-color: rgba(148, 148, 140, 0.705);
+} 
+
+/****************************/
+/* Main - Vacation Packages */
+/****************************/
+
+/* also reference index-images.js for innerHTML */
+
+.index-main {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.index-main h2 {
+  margin-left: 0.5rem;
+  color: rgb(63, 70, 99);
+}
+
+.section-margin {
+  margin-top: 2.5em;
+}
+
+.service-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-intro figure {
+  margin: 0;
+  /* width: 300px; */
+}
+
+.service-intro img {
+  width: 20%;
+  /* height: 230px; */
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.service-intro figcaption {
+  margin: 1em;
+  padding: 1em;
+  height: 60px;
+  color: #222222;
+  text-align: center;
+
+  background-color: #e4dedf;
+  
+}
+
+
+
+.service-box {
+  display: flex;
+  width: 300px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.service-box p {
+  font-size: 0.9rem;
+}
+
+.service-icon {
+  width: 22%;
+  padding: 0.5em;
+}
+
+.aboutus h2{
+  margin-top: 3em;
+}
+
+.bottom-arrow {
+  /* border-bottom: 5px solid #6e686bd0; */
+  border-bottom: 5px solid #e4dedf;
+}
+
+.bottom-arrow:after {
+  content:'';
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  /* border-top: 30px solid #6e686bd0; */
+  border-top: 30px solid #e4dedf;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.outer-container {
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+  flex-direction: column;
+}
+
+.inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  border-radius: 15px;
+  border: solid 0.5px #e4dedf;
+  /* width: 100%; */
+}
+
+
+.sub-container1 {
+  text-align: left;
+  flex-wrap: wrap;
+  border-right-style: groove;
+  border-color: rgb(63, 120, 193);
+  min-width: 30%;
+  padding:1em;
+  padding-left:3em;
+}
+
+.sub-container2 {
+  text-align: left;
+  flex-wrap: wrap;
+  /* min-width: 60%; */
+  width: 70%;
+  padding: 1em;
+  /* padding:2em; */
+  /* padding-right: 1em; */
+
+}
+
+.active {
+  color: #cd853f;
+}
+/* Responsive sizingfor phone screen size */
+@media screen and (max-width: 600px) {
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+  }
+
+  .inner-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .sub-container1 {
+    border-right-style: none;
+    border-bottom-style: groove;
+    width: 100%;
+  }
+  
+  .sub-container2 {
+    flex-wrap: wrap;
+    width: 100%; 
+  }
+ 
+}

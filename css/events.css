@@ -1,0 +1,109 @@
+body{
+  /* background-color: snow; */
+  /* background-image: url('https://images.unsplash.com/photo-1495841020177-1919ede29bd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2081&q=80'); */
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+}
+
+.border {
+  /* border-bottom-style: groove; */
+  border-bottom: 1px solid grey;
+}
+
+.events {
+  /* max-width: 100%;  */
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* .events h2 {
+  margin-left: 0.5rem;
+  color: rgb(63, 120, 193);
+} */
+
+.section-margin {
+  margin-top: 3em;
+}
+
+
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.upcoming {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 2em;  */
+  /* height: 35vh; */
+  /* border-bottom: 0.1em solid grey; */
+  /* background-image: url('https://images.unsplash.com/photo-1521449256184-170b4a4c437c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80'); */
+
+  /* background-size: cover;
+  background-position: center; */
+
+  /* min-height: 50vh; */
+  width: 100%;
+} 
+
+.past {
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* height: 60vh; */
+  /* background-image: url('https://images.unsplash.com/photo-1516053256215-94022213b13c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80'); */
+
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+}
+.widthSet {
+  width: 500px;
+}
+
+
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.outer-containerEv {
+  margin-top: 5em;
+
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin-bottom: 50px; */
+  flex-direction: column;
+
+  border: 0.1em solid grey;
+  width: 350px;
+
+  font-size: 0.8em;
+}
+
+.box {
+  width: 100%;
+  /* padding-bottom: 1em; */
+  /* border-bottom: 1px solid grey; */
+}
+
+.event-detail p{
+  font-size: 0.8em;
+}
+
+.hidden{
+  display:none;
+}
