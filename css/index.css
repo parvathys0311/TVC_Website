@@ -14,27 +14,31 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
+  flex:auto;
   
-  /* background-image: url('https://c4.wallpaperflare.com/wallpaper/654/555/787/geometry-cyberspace-digital-art-lines-wallpaper-preview.jpg'); */
+  background-image: url('https://images.unsplash.com/photo-1473091534298-04dcbce3278c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
 
   align-items: flex-start;
-  justify-content: center; 
+  justify-content: flex-start; 
   
-  height: 80vh; 
-  margin: 0;
-  margin-bottom: 3em;
-  padding-left: 8em;
+  min-height: 100vh;
+  /* margin: 0; */
+  /* margin-bottom: 3em; */
+  padding-left: 7em; 
 
   background-size: cover;
-  background-position: center; 
+  background-position: right bottom; 
   background-color: transparent;
 
+  overflow: auto;
+  /* border: 1px solid blue; */
 }
 
 
 
-.bg{
-  flex: auto;
+/* .bg{ */
+  /* flex: auto;
   position: absolute;
   background-image: url('https://images.unsplash.com/photo-1473091534298-04dcbce3278c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
   background-size: cover;
@@ -43,13 +47,19 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     /* opacity: .9;  */
     /* width: 100%; */
-    height: 100%;  
-}
+
+    /* min-height: 100vh; */
+
+    
+/* } */
 
 .hero-words {
+  margin-top: 5.8em;
+
+  /* border: 1px solid grey; */
   flex-direction: column;
 
   width: 65%;
@@ -70,6 +80,19 @@ body {
 
 }
 
+#connect {
+  padding: 0.5em 2em;
+
+  background-color: #03f855;
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: 900;
+
+  border-radius: 3px;
+  border: none;
+  text-decoration: none;
+}
+
 .hero-btn {
   padding: 0.5em 2em;
   border-radius: 3px;
@@ -79,13 +102,13 @@ body {
   text-align: center;
   color: #222222;
   /* background-color: rgb(169, 201, 57); */
-  background-color: #366ea7;
+  background-color: #03f855;
   border: none;
   margin-top: 5em;
 }
 
 .hero-btn:hover {
-  background-color: rgba(148, 148, 140, 0.705);
+  border:1px solid #398d55;
 } 
 
 /****************************/
@@ -227,8 +250,15 @@ body {
 }
 /* Responsive sizingfor phone screen size */
 @media screen and (max-width: 600px) {
-  .hero h2 {
-    font-size: 1.8rem;
+  .hero {
+    padding-left: 2em;
+    padding-right: 1em;
+
+    background-position: left bottom;
+  }
+
+  .hero h1 {
+    font-size: 2.4em;
   }
 
   .hero p {
@@ -254,5 +284,17 @@ body {
     flex-wrap: wrap;
     width: 100%; 
   }
+
+  .hero-words {
+    margin-top: 4em;
+
+    width: 100%;
+  }
  
+}
+
+@media (orientation: landscape) {
+
+
+
 }
