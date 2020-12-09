@@ -1,32 +1,35 @@
 /* imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 /* heading text */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
 }
 
-.hero p{
+.hero p {
   font-size: 1.1em;
 }
 
-
 /* body text */
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   /* font size: default is usually 16px */
   font-size: 16px;
-    
+
   /* line-height (called leading in print design); browser default is usually 1.2. Try for a minimum of 1.5, max should be less than 2 */
-  line-height: 1.5;
+  line-height: 1.3;
   color: #222222;
 }
 
-.contact p{
+.contact p {
   font-size: 0.9em;
 }
 
 @media screen and (max-width: 600px) {
-  
-  }
+}

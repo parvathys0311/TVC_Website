@@ -1,17 +1,21 @@
 // Navbar Toggle Menu
 
 // Declare our element variables
-const navBarToggle = document.querySelector('.btn-menu');
-const menu = document.querySelector('nav ul');
+const navBarToggle = document.querySelector('.toggle');
+const menu = document.querySelector('header');
+console.log(menu)
 
 // function statement
 function menuToggle() {
   console.log('Menu is toggled');
-
-  // This line of code runs only when `button` is clicked. 
-  // The 'visible' class will be removed/added (or toggled) each time this event handler is invoked
-  menu.classList.toggle('visible');
+  if (menu.classList.contains('active')){
+    // console.log("if")
+    menu.classList.remove('active')
+  } else {
+    // console.log('else') 
+    menu.classList.add('active');
+  }
 }
 
 // The code in the `eventHandler` function (defined above) will be invoked each time `button` is clicked
-navBarToggle.addEventListener('click', menuToggle);
+navBarToggle.addEventListener('click', menuToggle, false);
