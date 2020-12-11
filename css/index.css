@@ -218,7 +218,7 @@ body {
   flex-wrap: wrap;
   border-right-style: groove;
   border-color: #28399b;
-  min-width: 30%;
+  width: 30%;
   padding: 1em;
   padding-left: 3em;
 }

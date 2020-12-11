@@ -1,7 +1,7 @@
-body{
+body {
   /* background-color: snow; */
   /* background-image: url('https://images.unsplash.com/photo-1495841020177-1919ede29bd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2081&q=80'); */
-  background-color: rgb(255, 255, 255);;  
+  background-color: rgb(255, 255, 255);
 }
 
 .contact {
@@ -28,7 +28,7 @@ main form {
   margin-top: 2rem;
 }
 
-main form ul { 
+main form ul {
   display: flex;
   flex-direction: column;
 }
@@ -43,14 +43,15 @@ main form ul {
   width: 50%;
 } */
 
-input, textarea {
+input,
+textarea {
   margin: 10px 0;
   padding: 0.9em;
 
-  border:0;
-  border-bottom:1px solid rgb(216, 214, 214);
+  border: 0;
+  border-bottom: 1px solid rgb(216, 214, 214);
 
-  font-family:inherit;
+  font-family: inherit;
   font-size: 0.9rem;
 
   width: 100%;
@@ -60,13 +61,13 @@ textarea {
   resize: vertical;
 }
 
-main form ul button{ 
+main form ul button {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 900;
   text-align: center;
   /* color: white; */
   /* background-color: rgb(66, 14, 126); */
-  background-color: #366ea7;
+  background-color: #29a1c5;
   /* box-shadow:0 0 15px 4px rgba(0,0,0,0.06); */
   border: none;
   border-radius: 3px;
@@ -75,8 +76,8 @@ main form ul button{
 
   align-self: center;
   font-family: inherit;
-} 
+}
 
 button:hover {
   background-color: rgba(128, 128, 128, 0.637);
-}  
+}
