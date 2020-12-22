@@ -15,18 +15,6 @@
   flex-direction: column;
 }
 
-.fontColorSol1 {
-  color: orange;
-}
-
-.fontColorSol2 {
-  color: rgb(96, 168, 96);
-}
-
-.fontColorSol3 {
-  color: rgb(68, 169, 231);
-}
-
 .sol-cont1-content,
 .sol-cont2-content,
 .sol-cont3-content {
@@ -63,11 +51,11 @@
 
 .solImg {
   margin: 0.7em;
-  height: 100px;
+  /* height: 100px; */
 }
 
 .solImg img {
-  width: 100px;
+  width: 90%;
 }
 
 @media screen and (max-width: 600px) {
