@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TVC Home</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TVC Home</title>
-  <link rel="stylesheet" href="css/contact.css">
-  <link rel="stylesheet" href="css/typography.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo-item">
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="./images/logotrial.png"
+              alt="Travel Experts Logo"
+          /></a>
+        </div>
+        <div class="toggle">
+          <a href="#"><i class="fas fa-bars"></i></a>
+        </div>
+        <nav>
+          <ul>
+            <li class="item"><a href="solutions.html">Solutions</a></li>
+            <li class="item"><a href="services.html">Services</a></li>
+            <li class="item"><a href="events.html">Events</a></li>
+            <li class="item"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
 
-</head>
-
-<body>
-  <div class="wrapper">
-    <header>
-      <div class="logo-item">
-        <a href="index.html"><img class="logo" src="./images/logotrial.png" alt="Travel Experts Logo"></a>
-      </div>
-      <div class="toggle"><a href="#"><i class="fas fa-bars"></i></a></div>
-      <nav>
-        <ul>
-          <li class="item"><a href="services.html">Services</a></li>
-          <li class="item"><a href="events.html">Events</a></li>
-          <li class="item"><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
-
-
-<!-- Contact Us Form -->
-    <main class="contact">
-        <h2 class="section-margin"> Get In Touch
-        </h2>
-        <p>We would love to know more about you and your business ! </p>
+      <!-- Contact Us Form -->
+      <main class="contact">
+        <h2 class="section-margin">Get In Touch</h2>
+        <p>We would love to know more about you and your business !</p>
         <div class="container">
           <form action="#">
             <ul>
               <li>
-                <input type="text" name="name" placeholder="Your Name">
+                <input type="text" name="name" placeholder="Your Name" />
               </li>
               <li>
-                <input type="text" name="_replyto" placeholder="Your Email">
+                <input type="text" name="_replyto" placeholder="Your Email" />
               </li>
               <li>
-                <textarea name="message" placeholder="What would you like to tell us.."></textarea>
+                <textarea
+                  name="message"
+                  placeholder="What would you like to tell us.."
+                ></textarea>
               </li>
               <li>
                 <button type="submit" class="button-default">Send</button>
@@ -55,16 +65,17 @@
             </ul>
           </form>
         </div>
-    </main>
-    <footer class="layout">
-      <p class="font-small">Contact Us</p>
-      <h4 class="title-small">TechV Connects Inc</h4>
-      <p class="font-small">customersuccess@techvconnects.ca </p>
-      <p class="font-small">+1 437 986 5012</p>
-      <p class="font-copyright">COPYRIGHT © 2020 TECHV CONNECTS INC - ALL RIGHTS RESERVED</p>
-    </footer>
-  </div>
-
-</body>
-<script src="./js/menu-toggle.js"></script>
+      </main>
+      <footer class="layout">
+        <p class="font-small">Contact Us</p>
+        <h4 class="title-small">TechV Connects Inc</h4>
+        <p class="font-small">customersuccess@techvconnects.ca</p>
+        <p class="font-small">+1 437 986 5012</p>
+        <p class="font-copyright">
+          COPYRIGHT © 2020 TECHV CONNECTS INC - ALL RIGHTS RESERVED
+        </p>
+      </footer>
+    </div>
+  </body>
+  <script src="./js/menu-toggle.js"></script>
 </html>
