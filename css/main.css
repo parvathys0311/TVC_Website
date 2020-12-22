@@ -1,0 +1,14 @@
+.mainContainer {
+  margin: auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  margin-top: 3em;
+}

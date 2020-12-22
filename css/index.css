@@ -116,6 +116,10 @@ body {
   flex-wrap: wrap;
 }
 
+.intro {
+  height: 400px;
+}
+
 .intro h2,
 .intro p {
   flex: auto;
@@ -169,7 +173,54 @@ body {
   width: 22%;
   padding: 0.5em;
 }
+/* Implementation Model */
+.implementation {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
 
+.implementation-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+.imp-row1,
+.imp-row3 {
+  display: flex;
+  flex: auto;
+}
+.imp-row1 {
+  justify-content: center;
+}
+
+.img-box1,
+.img-box2,
+.img-box3 {
+  margin: auto;
+}
+
+.img-box4 {
+  width: 50%;
+  border: 1px solid blue;
+}
+
+.img-box5 {
+  width: 50%;
+  border: 1px solid orange;
+}
+
+.imp-Img img {
+  width: 90%;
+}
+
+/* worth your time */
+
+.aboutus about-contain {
+  border: 1px solid green;
+}
 .aboutus h2 {
   margin-top: 3em;
 }
