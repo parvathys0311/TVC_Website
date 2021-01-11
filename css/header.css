@@ -22,6 +22,7 @@ header {
 .logo {
   width: 100px;
   padding: 0;
+  transition: transform 330ms ease-in-out;
 }
 
 /**********/
@@ -107,6 +108,16 @@ nav a:active {
 /* .current-page {
   background-image: linear-gradient(cornflowerblue, cadetblue);
 } */
+
+/* logo - zoom effect */
+
+.logo:hover {
+  padding-top: 0.8em;
+  -ms-transform: scale(1.4); /* IE 9 */
+  -webkit-transform: scale(1.4); /* Safari 3-8 */
+  transform: scale(1.4);
+  /* transition: transform 330ms ease-in-out; */
+}
 
 /* Screen is in 'landscape' orientation (desktop view) */
 @media (orientation: landscape) {

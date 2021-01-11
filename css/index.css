@@ -50,6 +50,7 @@ body {
 
 .hero-words {
   margin-top: 5.8em;
+  text-align: left;
 
   /* border: 1px solid grey; */
   flex-direction: column;
@@ -247,6 +248,8 @@ body {
     padding-left: 1em;
     padding-right: 1em;
 
+    min-height: 80vh;
+
     background-position: left bottom;
   }
 
@@ -256,6 +259,13 @@ body {
 
   .hero p {
     font-size: 1.5rem;
+  }
+
+  .hero-words {
+    margin-top: 5.8em;
+    text-align: center;
+
+    width: 100%;
   }
 
   main h2 {
