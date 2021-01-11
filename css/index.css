@@ -1,6 +1,5 @@
 body {
   background-color: rgb(255, 255, 255);
-  border: 1px solid red;
 }
 
 /****************/
@@ -75,7 +74,7 @@ body {
 #connect {
   padding: 0.5em 2em;
 
-  background-color: #29a1c5;
+  background-color: #5bc5e4;
   font-family: inherit;
   font-size: 1.2em;
   font-weight: 900;
@@ -83,24 +82,6 @@ body {
   border-radius: 3px;
   border: none;
   text-decoration: none;
-}
-
-.hero-btn {
-  padding: 0.5em 2em;
-  border-radius: 3px;
-  text-decoration: none;
-  font-size: 22px;
-  font-weight: 900;
-  text-align: center;
-  color: #222222;
-  /* background-color: rgb(169, 201, 57); */
-  background-color: #03f855;
-  border: none;
-  margin-top: 5em;
-}
-
-.hero-btn:hover {
-  border: 1px solid #398d55;
 }
 
 /****************************/
@@ -229,7 +210,7 @@ body {
   text-align: left;
   flex-wrap: wrap;
   border-right-style: groove;
-  border-color: #28399b;
+  border-color: #5bc5e4;
   width: 30%;
   padding: 1em;
   padding-left: 3em;

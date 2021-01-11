@@ -64,7 +64,8 @@ nav {
 }
 
 .fas {
-  color: #28399b;
+  /* color: #28399b; */
+  color: #5bc5e4;
 }
 
 nav {
@@ -86,12 +87,13 @@ nav {
 
 nav a {
   display: block;
+  /* font-size: bold; */
   color: #222222;
   padding: 0.5em 1em;
 }
 
 nav ul li {
-  font-weight: 500;
+  font-weight: 550;
 }
 
 /* hover, active, and current page effects */
