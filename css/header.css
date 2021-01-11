@@ -4,7 +4,7 @@
 
 /* header mainly contains logo and navbar */
 header {
-  padding-left: 1em;
+  padding-left: 0.5em;
   padding-right: 0.5em;
 
   display: flex;
@@ -113,6 +113,7 @@ nav a:active {
 
 .logo:hover {
   padding-top: 0.8em;
+  padding-bottom: 0.6em;
   -ms-transform: scale(1.4); /* IE 9 */
   -webkit-transform: scale(1.4); /* Safari 3-8 */
   transform: scale(1.4);
@@ -130,8 +131,8 @@ nav a:active {
   }
 
   header {
-    padding-left: 5em;
-    padding-right: 3em;
+    padding-left: 4.5em;
+    padding-right: 4.5em;
 
     flex-direction: row;
     justify-content: space-around;
