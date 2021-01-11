@@ -1,5 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
+  border: 1px solid red;
 }
 
 /****************/
@@ -253,7 +254,7 @@ body {
     padding-left: 1em;
     padding-right: 1em;
 
-    min-height: 88vh;
+    min-height: 90vh;
 
     background-position: left bottom;
   }

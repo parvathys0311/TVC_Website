@@ -47,6 +47,7 @@ body {
   padding: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -110,10 +111,23 @@ hr.style13 {
   /* border-bottom: 1px solid grey; */
 }
 
+.event-detail {
+  display: flex;
+  flex-direction: column;
+}
+
 .event-detail p {
   font-size: 0.8em;
 }
 
 .hidden {
   display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .upcoming,
+  .past {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
