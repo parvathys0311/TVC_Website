@@ -1,75 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TVC Home</title>
+    <link rel="stylesheet" href="css/events.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TVC Home</title>
-  <link rel="stylesheet" href="css/events.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/typography.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-</head>
-
-<body>
-  <div class="wrapper">
-    <header>
-      <div class="logo-item">
-        <a href="index.html"><img class="logo" src="./images/logotrial.png" alt="Travel Experts Logo"></a>
-      </div>
-      <div class="toggle"><a href="#"><i class="fas fa-bars"></i></a></div>
-      <nav>
-        <ul>
-          <li class="item"><a href="solutions.html">Solutions</a></li>
-          <li class="item"><a href="services.html">Services</a></li>
-          <li class="item"><a href="events.html">Events</a></li>
-          <li class="item"><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
-
-
-    <!-- Events -->
-    <main class="events">
-      <!-- <h2 class="section-margin">Events</h2> -->
-      <section class="upcoming section-margin">
-        <h2>Upcoming events</h2>
-        <p>There are no upcoming events planned yet. Please visit us later to see what we have for you. </p>
-      </section>
-      <!-- <hr class="style13"> -->
-      <section class="past">
-        <div class="bottomBorder"><h2>Events in the past</h2></div>
-        <div class="outer-containerEv">
-          <a href="#event1" class="link">
-            <h4 class="box">Summer 2020</h4>
-            <img class="box"
-              src="https://images.unsplash.com/photo-1563207153-f403bf289096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80">
-            <h4 class="box">Robotic Programing for Young Technopreneurs</h4>
-          </a>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo-item">
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="./images/logotrial.png"
+              alt="Travel Experts Logo"
+          /></a>
         </div>
-      </section>
-      <div id="event1" class="event-detail hidden">
-        <h4>Robotic Programing for Young Technopreneurs</h4>
-        <p>Are you 7-13 years old? Do you want to program your own Robots? TechV Connects Inc gives you an opportunity
-          to fulfill your dreams through our programs.</p>
-        <p>Register Now. You will have the option of either taking the basic or advanced program. Detailed schedule will
-          be shared to you, upon registration.</p>
-        </br>
-      </br>
-      </div>
-    </main>
-    <footer class="layout">
-      <p class="font-small">Contact Us</p>
-      <h4 class="title-small">TechV Connects Inc</h4>
-      <p class="font-small">customersuccess@techvconnects.ca </p>
-      <p class="font-small">+1 437 986 5012, +1 403 891 8699</p>
-      <p class="font-copyright">COPYRIGHT © 2020 TECHV CONNECTS INC - ALL RIGHTS RESERVED</p>
-    </footer>
-  </div>
-</body>
-<script src="./js/events.js"></script>
-<script src="./js/menu-toggle.js"></script>
+        <div class="toggle">
+          <a href="#"><i class="fas fa-bars"></i></a>
+        </div>
+        <nav>
+          <ul>
+            <li class="item"><a href="solutions.html">Solutions</a></li>
+            <li class="item"><a href="services.html">Services</a></li>
+            <li class="item"><a href="events.html">Events</a></li>
+            <li class="item"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Events -->
+      <main class="mainContainer">
+        <div class="events">
+          <!-- <h2 class="section-margin">Events</h2> -->
+          <section class="upcoming section-margin">
+            <h2>Upcoming events</h2>
+            <p>
+              There are no upcoming events planned yet. Please visit us later to
+              see what we have for you.
+            </p>
+          </section>
+          <!-- <hr class="style13"> -->
+          <section class="past">
+            <div class="bottomBorder"><h2>Events in the past</h2></div>
+            <div class="outer-containerEv">
+              <a href="#event1" class="link">
+                <h4 class="box">Summer 2020</h4>
+                <div class="box">
+                  <img
+                    src="https://images.unsplash.com/photo-1563207153-f403bf289096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+                  />
+                </div>
+
+                <h4 class="box">Robotic Programing for Young Technopreneurs</h4>
+              </a>
+            </div>
+          </section>
+          <div id="event1" class="event-detail hidden">
+            <h4>Robotic Programing for Young Technopreneurs</h4>
+            <p>
+              Are you 7-13 years old? Do you want to program your own Robots?
+              TechV Connects Inc gives you an opportunity to fulfill your dreams
+              through our programs.
+            </p>
+            <p>
+              Register Now. You will have the option of either taking the basic
+              or advanced program. Detailed schedule will be shared to you, upon
+              registration.
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer class="layout">
+        <p class="font-small">Contact Us</p>
+        <h4 class="title-small">TechV Connects Inc</h4>
+        <p class="font-small">customersuccess@techvconnects.ca</p>
+        <p class="font-small">+1 437 986 5012, +1 403 891 8699</p>
+        <p class="font-copyright">
+          COPYRIGHT © 2020 TECHV CONNECTS INC - ALL RIGHTS RESERVED
+        </p>
+      </footer>
+    </div>
+  </body>
+  <script src="./js/events.js"></script>
+  <script src="./js/menu-toggle.js"></script>
 </html>
