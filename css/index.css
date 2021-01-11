@@ -112,6 +112,8 @@ body {
 }
 
 .service-intro {
+  width: 90%;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -119,7 +121,7 @@ body {
 }
 
 .service-intro figure {
-  margin: 0;
+  margin: 0.5em;
   /* width: 300px; */
 }
 
@@ -131,9 +133,9 @@ body {
 }
 
 .service-intro figcaption {
-  margin: 1em;
+  margin: auto;
   padding: 1em;
-  height: 60px;
+  height: auto;
   color: #222222;
   text-align: center;
 
@@ -210,7 +212,7 @@ body {
   text-align: left;
   flex-wrap: wrap;
   border-right-style: groove;
-  border-color: #5bc5e4;
+  border-color: #28399b;
   width: 30%;
   padding: 1em;
   padding-left: 3em;
@@ -235,7 +237,7 @@ body {
     padding-left: 1em;
     padding-right: 1em;
 
-    min-height: 90vh;
+    min-height: 85vh;
 
     background-position: left bottom;
   }
@@ -284,6 +286,10 @@ body {
   .hero-words {
     margin-top: 4em;
 
+    width: 100%;
+  }
+
+  .service-intro {
     width: 100%;
   }
 }
