@@ -253,13 +253,13 @@ body {
     padding-left: 1em;
     padding-right: 1em;
 
-    min-height: 80vh;
+    min-height: 88vh;
 
     background-position: left bottom;
   }
 
   .hero h1 {
-    font-size: 2.4em;
+    font-size: 2em;
   }
 
   .hero p {
@@ -267,7 +267,7 @@ body {
   }
 
   .hero-words {
-    margin-top: 5.8em;
+    margin-top: 5em;
     text-align: center;
 
     width: 100%;
