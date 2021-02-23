@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 600px) {
   .head {
-    margin-top: 2em;
+    margin-top: 8em;
   }
   .solution-container {
     flex-direction: column;

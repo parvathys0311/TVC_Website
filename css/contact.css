@@ -8,13 +8,14 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+
   text-align: center;
-  margin-bottom: 6em;
+  margin-bottom: 3em;
   /* background-color: blue; */
 }
 
 .section-margin {
-  margin-top: 3em;
+  /* margin-top: 3em; */
 }
 
 main form {
@@ -22,7 +23,7 @@ main form {
   padding: 0.5rem 1rem;
   border-radius: 15px;
   opacity: 0.9;
-  width: 100%;
+  width: 75%;
   max-width: 800px;
   margin: 1rem auto;
   margin-top: 2rem;
@@ -50,6 +51,7 @@ textarea {
 
   border: 0;
   border-bottom: 1px solid rgb(216, 214, 214);
+  outline: none;
 
   font-family: inherit;
   font-size: 0.9rem;
@@ -67,7 +69,7 @@ main form ul button {
   text-align: center;
   color: white;
   /* background-color: rgb(66, 14, 126); */
-  background-color: #123861;
+  background-color: #164578;
   /* box-shadow:0 0 15px 4px rgba(0,0,0,0.06); */
   border: none;
   border-radius: 3px;
@@ -79,5 +81,20 @@ main form ul button {
 }
 
 button:hover {
-  background-color: #246fc0;
+  background-color: #eb4248;
+}
+
+@media screen and (max-width: 600px) {
+  .extra {
+    padding-top: 100px;
+  }
+
+  .contact {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  main form {
+    width: 100%;
+  }
 }

@@ -1,5 +1,6 @@
 .mainContainer {
   margin: auto;
+  margin-top: 6em;
   text-align: center;
 
   display: flex;
